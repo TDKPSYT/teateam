@@ -678,6 +678,9 @@ footer span a:hover{
         width: 100%;
     }
 }
+.button-area{
+    margin-left: 70%;
+}
 
 @media (max-width: 500px) {
     .home .home-content .text-2{
@@ -708,6 +711,9 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    .button-area{
+        margin-left: 0%;
+    }
 }
 
 .content {
@@ -732,6 +738,7 @@ footer span a:hover{
 }
 .post:hover {
     transform: scale(1.01);
+    transition: 2s , ease;
 }
 .card .icon {
     color: crimson;
@@ -742,6 +749,8 @@ footer span a:hover{
 .post a:hover{
     color:rgb(196, 93, 114);
     text-align: center;
+    
+
 }
 .post a{
     color: crimson;
@@ -789,7 +798,3 @@ footer span a:hover{
 	overflow:auto;
 }
 
-
-.teams .card:hover{
-    cursor: pointer;
-}

@@ -68,3 +68,19 @@ $(document).ready(function(){
         }
     });
 });
+
+
+
+
+//Emailling form functions
+
+$(document).ready(function(){
+    $('.submit').click(function(event){
+    var name = $('.name').val()
+    var email = $('.email').val()
+    var subject = $('.subject').val()
+    var message = $('.request').val()
+
+
+    })
+})
